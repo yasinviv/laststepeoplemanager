@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "People List";
+}
+
+<table class="table table-dark table-striped">
+    <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+    
+    @for (int i = 0; i < 200; i++)
+    {
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>johndoe@example.com</td>
+        </tr>
+    }
+    </tbody>
+</table>
